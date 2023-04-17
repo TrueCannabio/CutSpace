@@ -3,6 +3,7 @@
   <head>
     <title>CutSpace</title>
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./sass/blocks/main.css" />
     <link rel="stylesheet" href="./sass/blocks/main.scss" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -12,7 +13,7 @@
     />
   </head>
   <body>
-    <header class="header">
+    <header class="header hide">
       <div class="container">
         <div class="header__row">
           <div class="header__logo">
@@ -32,7 +33,7 @@
       </div>
     </header>
     <main>
-      <section class="intro">
+      <section class="intro hide">
         <div class="container">
           <div class="intro__row">
             <div class="intro__text">
@@ -63,7 +64,7 @@
           </div>
         </div>
       </section>
-      <section class="clients">
+      <section class="clients hide">
         <div class="container">
           <div class="clients__row">
             <img src="./img/icons/client1.svg" alt="Client" />
@@ -73,11 +74,70 @@
           </div>
         </div>
       </section>
-      <section class="objects">
+      <section class="objects hide">
         <div class="container">
           <div class="objects__row">
-            <div class="objects__img"></div>
-            <div class="objects__tqxt"></div>
+            <div class="objects__img">
+              <div class="img-card">
+                <img
+                  src="https://sun9-38.userapi.com/impg/UXVH18S-AzwkTcaj4O7ojWPQQ1bJfwj6BxoHdg/Tp2E1JXl4nk.jpg?size=303x550&quality=95&sign=e26ed97e2b71adc660f3e388fc21dbcc&type=album"
+                  alt="Image"
+                />
+              </div>
+              <div class="img-card">
+                <img
+                  src="https://sun9-3.userapi.com/impg/JtlcTo2Laf-Ori0fP8-JQCKPjGrnSrvbBiv6lg/gFSQrMzecog.jpg?size=386x550&quality=95&sign=6f655e1e9977545cd3fe34ab9373a938&type=album"
+                  alt="Image"
+                />
+                <div class="img-card__info">
+                  <div class="img-card__icon">
+                    <img src="./img/icons/building.svg" alt="Icon" />
+                  </div>
+                  <div class="img-card__text">
+                    <h3>Twelve West Lake</h3>
+                    <p>Space for up to 150 people</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="objects__text">
+              <h2 class="title">We provide best space for you!</h2>
+              <p>
+                Quid ex eo ortum, tam inportuno tamque crudeli; sin, ut aliquid
+                ex ea quid est et via procedat oratio quaerimus.
+              </p>
+              <p>
+                quid aut ad id omnia referri oporteat, ipsum autem nusquam hoc
+                epicurus in ea commodi consequatur?
+              </p>
+              <a href="#" class="btn">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="start">
+        <div class="container">
+          <div class="start__row">
+            <div class="start__img">
+              <img
+                src="https://sun9-38.userapi.com/impg/32N_KygO-liCW46LGNjRycAQDhKnJSqcnwyGEg/ETm6PM5ISb8.jpg?size=531x380&quality=95&sign=940994c05587f32103f95bf3b4baa5e2&type=album"
+                alt="Image"
+              />
+            </div>
+            <div class="start__text">
+              <h2>Start using our product</h2>
+              <p>
+                Quid ex eo ortum, tam inportuno tamque crudeli; sin, ut aliquid
+                ex
+              </p>
+              <div class="buttons-row">
+                <a href="#" class="btn">Contact Us</a>
+                <button href="#" class="btn btn--white">
+                  <img src="./img/icons/play.svg" alt="Play" />
+                  Watch now
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </section>
