@@ -1,0 +1,43 @@
+html, body {
+    font-family: 'Poppins', sans-serif;
+    color: #323232;
+  }
+  
+  button, input[type="submit"] {
+    cursor: pointer;
+    transition: 0.4s all;
+  }
+
+  .hide {
+    display: none;
+  }
+  
+  .container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .btn {
+    display: inline-block;
+    height: 58px;
+    padding: 18px 37px;
+    background: #F78434;
+    border-radius: 29px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    transition: 0.4s all;
+    &:hover {
+      background: rgb(235, 98, 0);
+    }
+  }
+
+  .title {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 62px;
+  }
+
+ 
