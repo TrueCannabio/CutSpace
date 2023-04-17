@@ -1,0 +1,67 @@
+.intro {
+    &__row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    &__title {
+      position: relative;
+      z-index: 9;
+      margin-bottom: 25px;
+      margin-right: -160px;
+      font-weight: 700;
+      font-size: 54px;  
+      line-height: 79px;      
+    }
+    &__text {
+      width: 465px;
+      p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 27px;
+        margin-bottom: 42px;
+      }
+    }
+    &__form {
+      height: 58px;
+      background: #FFFFFF;
+      box-shadow: 0px 17px 42px rgba(0, 0, 0, 0.12);
+      border-radius: 29px;
+      transition: 0.4s all;
+      &--active {
+        box-shadow: 0px 17px 42px rgb(207, 112, 44);
+      }
+    }
+    &__label {
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-left: 72px;
+      position: relative;
+      &::before {
+        position: absolute;
+        top: 21px;
+        left: 28px;
+        content: "";
+        display: block;
+        width: 24px;
+        height: 19px;
+        background-image: url('../../img/icons/mail.svg');
+        background-size: initial;
+      }
+    }
+    &__input {
+      flex-grow: 1;
+      margin-right: 10px;
+      font-size: 16px;
+      &::placeholder {
+        font-weight: 400;
+        font-size: 16px;
+        color: #bbb;
+      }
+    }
+    &__img {
+      border-radius: 40px 40px 40px 0;
+    }
+}
